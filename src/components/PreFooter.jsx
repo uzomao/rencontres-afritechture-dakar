@@ -3,7 +3,7 @@ import shape from '../../src/assets/images/shapes/shape3.gif'
 const PreFooter = () => {
   return (
     <>
-    <div className="w-full h-48 grid grid-cols-2 mt-12 items-center h-screen text-justify">
+    <div className="w-full grid grid-cols-2 mt-12 items-center text-justify">
         <div className="flex flex-col items-center justify-evenly h-full">
           <blockquote className="text-body-xs mt-12 p-12">
             <p className="mb-4">To think and act by ourselves and for ourselves...to access modernity without trampling on our authenticity</p>
