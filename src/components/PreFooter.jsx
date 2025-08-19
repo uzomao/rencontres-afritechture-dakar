@@ -1,4 +1,5 @@
 import shape from '../../src/assets/images/shapes/shape3.gif'
+import video from "../../src/assets/images/video-1.webm"
 
 const PreFooter = () => {
   return (
@@ -18,7 +19,7 @@ const PreFooter = () => {
             playsInline
             className="w-full p-18"
             >
-            <source src="../src/assets/images/video-2.webm" type="video/webm" />
+            <source src={video} type="video/webm" />
             Your browser does not support the video tag.
           </video>
         </div>

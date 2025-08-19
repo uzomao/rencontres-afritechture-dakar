@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Button from "./ui/Button"
+import video from "../../src/assets/images/video-1.webm"
 
 const InfoSection = () => {
   const [ isGoals, setIsGoals ] = useState(false)
@@ -18,7 +19,7 @@ const InfoSection = () => {
             playsInline
             className="shadow-lg"
             >
-            <source src="../src/assets/images/video-1.webm" type="video/webm" />
+            <source src={video} type="video/webm" />
             Your browser does not support the video tag.
           </video>
         </div>
