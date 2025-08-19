@@ -1,6 +1,10 @@
+import React, { useState } from 'react'
 import Button from "./ui/Button"
+import Modal from "./ui/Modal"
 
 const InfoSection = () => {
+  const [ isGoals, setIsGoals ] = useState(false)
+
   return (
     <div className={`h-screen flex flex-col justify-center text-justify px-12 py-section`}>
       <p className="text-body-regular font-bold text-center">
@@ -20,21 +24,25 @@ const InfoSection = () => {
           </video>
         </div>
         <div className="flex flex-col items-center justify-evenly h-full">
-          <p className="text-body-xs mt-12">
-            Rencontres Afritechture carries this spirit forward, positioning itself as both a continuation of that legacy and a provocation toward new futures. The festival brings together architects, artists, and thinkers to explore how built environments can shape culture, identity, and possibility across Africa today.
-          </p>
-          <Button>
-            See Our Goals
+          {
+            !isGoals ?
+              <p className="text-body-xs mt-12">
+                Rencontres Afritechture carries this spirit forward, positioning itself as both a continuation of that legacy and a provocation toward new futures. The festival brings together architects, artists, and thinkers to explore how built environments can shape culture, identity, and possibility across Africa today.
+              </p>
+              :
+              <ol className="text-body-xs mt-12 text-justify">
+                <li className='my-2'>1. Create a shared pan-African architectural design language rooted in indigineity, futurity and self-agency</li>
+                <li className='my-2'>2. Foster pan-African intellectual collaboration in the field of architecture and design</li>
+                <li className='my-2'>3. Define and export African modernism to the world</li>
+                <li className='my-2'>4. Establish Senegal as a leader of the African cultural renaissance, continuing the Negritude movement and honouring Senghor's legacy</li>
+                <li className='my-2'>5. Position Dakar as the leading destination for intellectual and cultural tourism on the African continent</li>
+              </ol>
+          }
+          <Button onClick={() => setIsGoals(!isGoals)}>
+            See Our { isGoals ? 'Mission' : 'Goals' }
           </Button>
         </div>
       </div>
-      {/* <img src='../src/assets/images/arrows1-no-bg.gif' style={{
-        position: 'absolute',
-        top: '100vh',
-        left: 0,
-        margin: 0,
-        width: '100%',
-      }} /> */}
     </div>
   )
 }
