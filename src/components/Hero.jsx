@@ -2,7 +2,7 @@ import Button from "./ui/Button"
 
 const Hero = () => {
   return (
-    <section className="w-[70%] ml-[15%] h-screen flex flex-col justify-center text-left">
+    <div className="h-screen flex flex-col justify-center text-left">
       <h1 className="text-9xl">
         <span className="block">RENCONTRES</span> 
         <span className="block text-brown">AFRITECHTURE</span>
@@ -14,7 +14,7 @@ const Hero = () => {
         <Button>VIEW SCHEDULE</Button>
         <Button>REGISTER</Button>
       </div>
-    </section>
+    </div>
   )
 }
 
