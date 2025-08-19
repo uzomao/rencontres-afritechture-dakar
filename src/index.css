@@ -8,7 +8,7 @@
 @theme {
     --color-black: #2F2A28;
     --color-gold: #F9AE00;
-    --color-brown: #EAA182;
+    --color-teracotta: #EAA182;
     --color-white: #EEF9F0;
     --color-brown: #4A2011;
 
@@ -20,6 +20,8 @@
 
     --font-headings: 'Josefin Sans', sans-serif;
     --font-body: 'Inter', sans-serif;
+
+    --spacing-section: 8rem;
 
     --shadow-base: 8px 8px 0 0 var(--color-brown);
 }

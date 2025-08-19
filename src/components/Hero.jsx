@@ -1,18 +1,18 @@
 import Button from "./ui/Button"
 
-const Hero = () => {
+const Hero = ({ spacing }) => {
   return (
-    <div className="h-screen flex flex-col justify-center text-left">
-      <h1 className="text-9xl">
+    <div className={`h-screen flex flex-col p-24 items-center ${spacing}`}>
+      <h1 className="text-7xl text-center leading-tight">
         <span className="block">RENCONTRES</span> 
         <span className="block text-brown">AFRITECHTURE</span>
         <span className="block">DAKAR</span>
       </h1>
-      <p className="my-3 text-body-regular">Festival of African Architecture</p>
+      <p className="my-3 text-body-small">Festival of African Architecture</p>
       <h5 className="my-3">10 Nov - 14 Nov '25</h5>
-      <div className="grid grid-cols-2 gap-0.5 mt-3">
-        <Button>VIEW SCHEDULE</Button>
-        <Button>REGISTER</Button>
+      <div className="grid grid-cols-2 gap-24 mt-3">
+        <a href="#schedule"><Button>View Schedule</Button></a>
+        <Button>Register</Button>
       </div>
     </div>
   )
