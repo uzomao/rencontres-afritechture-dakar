@@ -1,5 +1,5 @@
 import shape from '../../src/assets/images/shapes/shape3.gif'
-import video from "../../src/assets/images/video-1.webm"
+import video from "../../src/assets/images/video-2.webm"
 
 const PreFooter = () => {
   return (
