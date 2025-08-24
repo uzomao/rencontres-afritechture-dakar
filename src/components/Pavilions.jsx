@@ -25,7 +25,7 @@ const Pavilions = () => {
                 </Button>
             </a>
             <p className="text-small mt-12">
-                Built using <a href="https://portal8.space" target='_blank' rel='noreferrer noopener' className='underline'>Portal</a>
+                Created using <a href="https://portal8.space" target='_blank' rel='noreferrer noopener' className='underline'>Portal</a>
             </p>
         </div>
     </div>
