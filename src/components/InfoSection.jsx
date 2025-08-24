@@ -30,12 +30,12 @@ const InfoSection = () => {
                 Rencontres Afritechture carries this spirit forward, positioning itself as both a continuation of that legacy and a provocation toward new futures. The festival brings together architects, artists, and thinkers to explore how built environments can shape culture, identity, and possibility across Africa today.
               </p>
               :
-              <ol className="text-body-xs mt-12 text-justify">
-                <li className='my-2'>1. Create a shared pan-African architectural design language rooted in indigineity, futurity and self-agency</li>
-                <li className='my-2'>2. Foster pan-African intellectual collaboration in the field of architecture and design</li>
-                <li className='my-2'>3. Define and export African modernism to the world</li>
-                <li className='my-2'>4. Establish Senegal as a leader of the African cultural renaissance, continuing the Negritude movement and honouring Senghor's legacy</li>
-                <li className='my-2'>5. Position Dakar as the leading destination for intellectual and cultural tourism on the African continent</li>
+              <ol className="text-body-xs mt-12 text-justify list-decimal">
+                <li className='list-item my-3'>Create a shared pan-African architectural design language rooted in indigineity, futurity and self-agency</li>
+                <li className='list-item my-3'>Foster pan-African intellectual collaboration in the field of architecture and design</li>
+                <li className='list-item my-3'>Define and export African modernism to the world</li>
+                <li className='list-item my-3'>Establish Senegal as a leader of the African cultural renaissance, continuing the Negritude movement and honouring Senghor's legacy</li>
+                <li className='list-item my-3'>Position Dakar as the leading destination for intellectual and cultural tourism on the African continent</li>
               </ol>
           }
           <Button onClick={() => setIsGoals(!isGoals)}>

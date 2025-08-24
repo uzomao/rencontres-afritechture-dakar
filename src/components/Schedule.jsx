@@ -76,7 +76,10 @@ const Schedule = ({ spacing }) => {
             </button>
             </div>
 
-            {activeTab === "program" ? <ProgramView scheduleData={scheduleData} /> : <Grid items={speakers} />}
+            {activeTab === "program" ? 
+                <ProgramView scheduleData={scheduleData} /> : 
+                <div className="border-4 border-black"><Grid items={speakers} /></div>
+            }
         </div>
         </div>
         <div className="flex justify-between">

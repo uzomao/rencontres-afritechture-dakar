@@ -10,7 +10,7 @@ import Footer from '../components/Footer.jsx'
 const LandingPage = () => {
   const defaultSpacing = 'w-[70%] ml-[15%]'
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col overflow-x-hidden">
       <Header />
 
       <section className="bg-[url('../src/assets/images/hero-section-bg.png')] bg-no-repeat bg-bottom bg-contain max-h-[50%]">
