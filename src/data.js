@@ -181,69 +181,79 @@ export const scheduleData = [
   }
 ];
 
+import kereImg from "../src/assets/images/speakers/kere.jpg"
+import kamaraImg from "../src/assets/images/speakers/kamara.jpg"
+import osaeAddoImg from "../src/assets/images/speakers/osae-addo.jpg"
+import adeyemiImg from "../src/assets/images/speakers/adeyemi.jpg"
+import oshinowoImg from "../src/assets/images/speakers/oshinowo.jpg"
+import jeyifousImg from "../src/assets/images/speakers/jeyifous.jpg"
+import vallyImg from "../src/assets/images/speakers/vally.jpg"
+import lokkoImg from "../src/assets/images/speakers/lokko.jpg"
+import adjayeImg from "../src/assets/images/speakers/adjaye.jpg"
+
 export const speakers = [
   {
     name: "Francis Kéré",
     title: "Architect, Pritzker Laureate",
     org: "Kéré Architecture",
     bio: "Burkina Faso–born architect celebrated for community-driven projects using local materials and sustainable methods. First African recipient of the Pritzker Prize.",
-    image: "../src/assets/images/speakers/kere.jpg",
+    image: kereImg,
   },
   {
     name: "Mariam Kamara",
     title: "Founder & Principal Architect",
     org: "Atelier Masōmī",
     bio: "Nigerien architect whose work blends vernacular traditions with modern forms. Advocates for socially grounded, culturally resonant design across Africa.",
-    image: "../src/assets/images/speakers/kamara.jpg",
+    image: kamaraImg,
   },
   {
     name: "Joe Osae-Addo",
     title: "Architect & Cultural Activist",
     org: "Adjaye & Associates Ghana / ArchiAfrika",
     bio: "Ghanaian architect bridging contemporary practice with indigenous building knowledge and cultural advocacy across West Africa.",
-    image: "../src/assets/images/speakers/osae-addo.jpg",
+    image: osaeAddoImg,
   },
   {
     name: "Kunlé Adeyemi",
     title: "Architect & Urbanist",
     org: "NLÉ",
     bio: "Nigerian architect known for innovative floating structures and rethinking urban futures in rapidly growing African cities.",
-    image: "../src/assets/images/speakers/adeyemi.jpg",
+    image: adeyemiImg,
   },
   {
     name: "Tosin Oshinowo",
     title: "Architect & Designer",
     org: "cmDesign Atelier",
     bio: "Nigerian architect and curator, exploring modernist forms and cultural identity in African architecture and furniture design.",
-    image: "../src/assets/images/speakers/oshinowo.jpg",
+    image: oshinowoImg,
   },
   {
     name: "Olalekan Jeyifous",
     title: "Artist & Designer",
     org: "Independent / Brooklyn",
     bio: "Nigerian-born, Brooklyn-based visual artist creating speculative urbanist visions through architecture, design, and Afrofuturist aesthetics.",
-    image: "../src/assets/images/speakers/jeyifous.jpg",
+    image: jeyifousImg,
   },
   {
     name: "Sumayya Vally",
     title: "Architect & Educator",
     org: "Counterspace",
     bio: "South African architect whose work explores memory, identity, and future-making. Youngest architect commissioned for London’s Serpentine Pavilion.",
-    image: "../src/assets/images/speakers/vally.jpg",
+    image: vallyImg,
   },
   {
     name: "Lesley Lokko",
     title: "Architect, Curator & Educator",
     org: "African Futures Institute / Venice Biennale 2023",
     bio: "Ghanaian-Scottish architect and educator. Curated the 2023 Venice Architecture Biennale with a focus on Africa and the diaspora.",
-    image: "../src/assets/images/speakers/lokko.jpg",
+    image: lokkoImg,
   },
   {
     name: "David Adjaye",
     title: "Architect",
     org: "Adjaye Associates",
     bio: "World-renowned Ghanaian-British architect. Designer of landmark cultural institutions including the Smithsonian National Museum of African American History and Culture.",
-    image: "../src/assets/images/speakers/adjaye.jpg",
+    image: adjayeImg,
   },
 ];
 
@@ -304,29 +314,36 @@ export const pavilions = [
   },
 ];
 
+import ministryTourismeImg from "../src/assets/images/sponsors/tourisme.png"
+import rawMaterialCompanyImg from "../src/assets/images/sponsors/raw.png"
+import goetheImg from "../src/assets/images/sponsors/goethe.png"
+import unescoImg from "../src/assets/images/sponsors/unesco.png"
+import ecowasImg from "../src/assets/images/sponsors/ecowas.png"
+import royalAirMarocImg from "../src/assets/images/sponsors/maroc.png"
+
 export const sponsors = [
   {
     name: "Ministère du Tourisme du Sénégal",
-    image: "../src/assets/images/sponsors/tourisme.png",
+    image: ministryTourismeImg,
   },
   {
     name: "RAW Material Company",
-    image: "../src/assets/images/sponsors/raw.png",
+    image: rawMaterialCompanyImg,
   },
   {
     name: "Goethe-Institut Dakar",
-    image: "../src/assets/images/sponsors/goethe.png",
+    image: goetheImg,
   },
   {
     name: "Royal Air Maroc",
-    image: "../src/assets/images/sponsors/maroc.png",
+    image: royalAirMarocImg,
   },
   {
     name: "UNESCO Afrique de l’Ouest",
-    image: "../src/assets/images/sponsors/unesco.png",
+    image: unescoImg,
   },
   {
     name: "ECOWAS",
-    image: "../src/assets/images/sponsors/ecowas.png",
+    image: ecowasImg,
   },
 ];
